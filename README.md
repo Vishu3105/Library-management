@@ -16,7 +16,8 @@ This project allows users to **add, issue, return, and view books** in a library
 ---
 
 ## 🛠️ Tech Stack
-- **Language:** Java  
+- **Language:** Java
+- **IDE:** IntelliJ IDEA
 - **Concepts Used:**  
   - Object-Oriented Programming (OOP)  
   - Collections (`ArrayList`)  
