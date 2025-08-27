@@ -27,4 +27,12 @@ This project allows users to **add, issue, return, and view books** in a library
 ---
 
 ## 📂 Project Structure
-
+```
+LibraryManagementSystem/
+├── src/
+│   ├── Book.java        # Book class
+│   ├── User.java        # User class
+│   ├── Library.java     # Library management
+│   └── Main.java        # Main menu-driven program
+├── README.md            # Project documentation
+```
