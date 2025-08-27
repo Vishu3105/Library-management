@@ -1,2 +1,29 @@
-# Library-management
-A Smart library management system
+# 📚 Library Management System (Java)
+
+A simple **console-based Library Management System** built using **Core Java (OOP + Collections)**.  
+This project allows users to **add, issue, return, and view books** in a library.
+
+---
+
+## 🚀 Features
+- Add new books to the library 📖  
+- View all available books 👀  
+- Issue a book to a user ✅  
+- Return a book 🔄  
+- Prevents issuing already issued books 🚫  
+- Menu-driven console interface 🖥️  
+
+---
+
+## 🛠️ Tech Stack
+- **Language:** Java  
+- **Concepts Used:**  
+  - Object-Oriented Programming (OOP)  
+  - Collections (`ArrayList`)  
+  - Exception Handling  
+  - Scanner for user input  
+
+---
+
+## 📂 Project Structure
+
