@@ -9,7 +9,8 @@ This project allows users to **add, issue, return, and view books** in a library
 - Add new books to the library 📖  
 - View all available books 👀  
 - Issue a book to a user ✅  
-- Return a book 🔄  
+- Return a book 🔄
+- View all issued books 👀  
 - Prevents issuing already issued books 🚫  
 - Menu-driven console interface 🖥️  
 
@@ -40,19 +41,53 @@ LibraryManagementSystem/
 ## 🖼️ Sample Output
 ```
 --- Library Menu ---
-1.Add Book
-2.Show Available Books
-3.Issue Book
-4.Return Book
-5.Exit
-
+1. Add Book
+2. Show Available Books
+3. Issue Book
+4. Return Book
+5. Show All Issued Books
+6. Exit
 Choose option: 1
-Enter book title: Java 
-Enter author: core java
-Java added to the library.
+Enter book title: Java Basics
+Enter author: Java
+Java Basics added to the library.
 
 --- Library Menu ---
-2
+Choose option: 1
+Enter book title: Java Advanced
+Enter author: Java
+Java Advanced added to the library.
+
+--- Library Menu ---
+Choose option: 2
 Available Books:
-Java by core java [Available]
+Java Basics by Java [Available]
+Java advanced by Java [Available]
+
+--- Library Menu ---
+Choose option: 3
+Enter student name: Vishwas
+Enter book title to issue: Java Basics
+Java Basics issued to Vishwas
+
+--- Library Menu ---
+Choose option: 5
+Issued Books:
+Java Basics by Java [Issued to: Vishwas]
+
+--- Library Menu ---
+Choose option: 4
+Enter student name: Vishwas
+Enter book title to return: Java Basics
+Vishwas returned Java Basics
+
+--- Library Menu ---
+Choose option: 5
+Issued Books:
+No books are currently issued.
+
+--- Library Menu ---
+Choose option: 6
+Exiting...
+
 ```
