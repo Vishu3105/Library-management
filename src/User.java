@@ -8,14 +8,26 @@ public class User {
         this.issuedBooks = new ArrayList<>();
     }
 
-    public String getName() { return name; }
-    public ArrayList<Book> getIssuedBooks() { return issuedBooks; }
+    public String getName() {
+        return name;
+    }
+
+    public ArrayList<Book> getIssuedBooks() {
+        return issuedBooks;
+    }
 
     public void issueBook(Book book) {
-        issuedBooks.add(book);
+        if (!book.isIssued()) {
+            book.issueBook(this);
+            issuedBooks.add(book);
+        }
     }
 
     public void returnBook(Book book) {
-        issuedBooks.remove(book);
+        if (issuedBooks.contains(book)) {
+            book.returnBook();
+            issuedBooks.remove(book);
+        }
     }
 }
+
