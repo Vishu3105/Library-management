@@ -36,3 +36,23 @@ LibraryManagementSystem/
 │   └── Main.java        # Main menu-driven program
 ├── README.md            # Project documentation
 ```
+
+## 🖼️ Sample Output
+```
+--- Library Menu ---
+1.Add Book
+2.Show Available Books
+3.Issue Book
+4.Return Book
+5.Exit
+
+Choose option: 1
+Enter book title: Java 
+Enter author: core java
+Java added to the library.
+
+--- Library Menu ---
+2
+Available Books:
+Java by core java [Available]
+```
