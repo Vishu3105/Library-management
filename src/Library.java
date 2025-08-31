@@ -30,7 +30,7 @@ class Library {
         for (Book book : books) {
             if (book.getTitle().equalsIgnoreCase(title) && !book.isIssued()) {
                 user.issueBook(book);
-                System.out.println(book.getTitle() + " issued to" + user.getName());
+                System.out.println(book.getTitle() + " issued to " + user.getName());
                 return;
             }
         }
@@ -45,7 +45,7 @@ class Library {
                 return;
             }
         }
-        System.out.println("This book was not issued by " + user.getName());
+        System.out.println("This book was not issued to " + user.getName());
     }
 
     public void showIssuedBooks() {
